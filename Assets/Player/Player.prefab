@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2753722846259439681}
   - component: {fileID: 861010202963860477}
   - component: {fileID: 4541204199610529371}
+  - component: {fileID: 7692361389964276280}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -74,6 +75,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 2.52, z: 1}
   m_Center: {x: 0, y: -0.73, z: 0}
+--- !u!114 &7692361389964276280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56715548630396312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d9c7216e3f54f4cabdee1d23882f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPosition: {x: 111, y: 25, z: -7}
 --- !u!1 &197484034170610505
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,6 +147,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -237,6 +254,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
